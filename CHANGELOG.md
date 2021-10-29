@@ -6,6 +6,7 @@
 - [#4888](https://github.com/blockscout/blockscout/pull/4888) - Fix fetch_top_tokens method: add nulls last for token holders desc order
 
 ### Chore
+- [#4861](https://github.com/blockscout/blockscout/pull/4861) - Add separate column for token icons
 
 
 ## 4.0.0-beta
