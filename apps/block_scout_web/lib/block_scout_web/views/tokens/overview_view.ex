@@ -85,6 +85,12 @@ defmodule BlockScoutWeb.Tokens.OverviewView do
   # credo:disable-for-next-line /Complexity/
   defp get_base_token_explorer_link(chain_id) when not is_nil(chain_id) do
     case Decimal.to_integer(chain_id) do
+      42261 ->
+        @blockscout_base_link <> "tokens/"
+
+      42262 ->
+        @blockscout_base_link <> "tokens/"
+
       181 ->
         @blockscout_base_link <> "poa/qdai/tokens/"
 
